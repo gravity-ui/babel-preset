@@ -1,10 +1,10 @@
-# @yandex-cloud/babel-preset
+# @gravity-ui/babel-preset
 
-Babel preset for Yandex Cloud projects
+Babel preset for Gravity UI projects
 
-## Installation
+## Install
 ```
-npm install --save-dev @yandex-cloud/babel-preset
+npm install --save-dev @gravity-ui/babel-preset
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ npm install --save-dev @yandex-cloud/babel-preset
 ```json5
 {
   "presets": [
-      "@yandex-cloud/babel-preset",
+      "@gravity-ui/babel-preset",
       {
         "env": {modules: false}, // defaults to {}
         "runtime": {useESModules: true}, // defaults to {}

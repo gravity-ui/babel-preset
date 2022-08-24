@@ -1,19 +1,25 @@
 {
-  "name": "@yandex-cloud/babel-preset",
+  "name": "@gravity-ui/babel-preset",
   "version": "1.0.0",
-  "description": "Yandex.Cloud Babel preset",
+  "description": "Gravity UI Babel preset",
   "keywords": [
     "babel",
     "preset"
   ],
   "license": "MIT",
+  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yandex-cloud/babel-preset"
+    "url": "git+https://github.com/gravity-ui/babel-preset.git"
   },
-  "files": [
-    "index.js"
-  ],
+  "bugs": {
+    "url": "https://github.com/gravity-ui/babel-preset/issues"
+  },
+  "homepage": "https://github.com/gravity-ui/babel-preset#readme",
+  "scripts": {
+    "prepare": "husky install",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
   "dependencies": {
     "@babel/core": "^7.17.9",
     "@babel/plugin-proposal-decorators": "^7.17.9",
@@ -24,5 +30,10 @@
     "@babel/runtime": "^7.17.9",
     "babel-plugin-dynamic-import-node": "^2.3.3",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "husky": "^8.0.1"
   }
 }
