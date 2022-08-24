@@ -7,7 +7,9 @@
     "preset"
   ],
   "license": "MIT",
-  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gravity-ui/babel-preset.git"
